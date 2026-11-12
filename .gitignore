@@ -1,0 +1,23 @@
+# Build files
+build/
+cmake-build-*/
+
+# Executables and object files
+*.exe
+*.o
+*.obj
+*.dll
+*.a
+
+# Generated packet captures
+output.pcap
+blocked_output.pcap
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+dpi_engine
